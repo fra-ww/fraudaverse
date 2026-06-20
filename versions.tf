@@ -6,10 +6,10 @@ terraform {
       source  = "hashicorp/aws"
       version = ">= 5.9"
     }
-    cloudflare = {
-      source  = "hashicorp/cloudflare"
-      version = ">= 5.7.1"
-    }
+    #cloudflare = {
+    #  source  = "hashicorp/cloudflare"
+    #  version = ">= 5.7.1"
+    #}
     helm = {
       source  = "hashicorp/helm"
       version = "~> 3.1.1"
