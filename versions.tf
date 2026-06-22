@@ -28,7 +28,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      map-migrated = "migCNNA7H5YEV"
+      map-migrated = "migCNNA7H5YEV111"
       #customer     = var.customer
       #VantaOwner   = var.vanta_owner
       #costcenter   = "${var.region}-${var.customer}"
